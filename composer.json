@@ -1,0 +1,21 @@
+{
+    "name": "m-paap/fietskoeriers-api",
+    "authors": [
+        {
+            "name": "Mark Paap",
+            "email": "mark@paaprika.nl"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FietskoeriersApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
